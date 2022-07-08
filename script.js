@@ -37,9 +37,9 @@ actives.addEventListener("click", () => {
 
 function clicked() {
   if ( !actives.children[0].src.match("/image/dropdown/Stroke-2.svg")) {
-    actives.children[0].src="/image/dropdown/Stroke-2.svg"
+    actives.children[0].src="./image/dropdown/Stroke-2.svg"
   } else {
-    actives.children[0].src="/image/dropdown/Stroke-1.svg"
+    actives.children[0].src="./image/dropdown/Stroke-1.svg"
   }
 }
 
